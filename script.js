@@ -26,6 +26,9 @@ if (islowercase === false && isuppercase === false && isspecials === false && is
 var userinfo = {
   length: length, 
   islowercase: islowercase,
+  isuppercase: isuppercase,
+  isspecials: isspecials,
+  isnumeric: isnumeric,
 }
 return userinfo; 
 }
@@ -35,7 +38,7 @@ return userinfo;
 //THEN the password is either displayed in an alert or written to the page
 function generatePassword() {
   var useranswers = userPrompts();
-  }
+   }
 
 // Write password to the #password input
 function writePassword() {
@@ -45,6 +48,7 @@ function writePassword() {
     return passwordText;
 }
 console.log("Your password is" + password);
+alert(password);
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
