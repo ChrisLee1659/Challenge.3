@@ -1,4 +1,4 @@
-# Challenge.3
+# Challenge.3.  The goal of this challenge is to creat a user password after meeting certain criteria through pop up windows
 # User Story
 
 AS AN employee with access to sensitive data
