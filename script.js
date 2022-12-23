@@ -45,10 +45,12 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
-    return passwordText;
+    return password;
 }
 console.log("Your password is" + password);
 alert(password);
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
